@@ -11,8 +11,8 @@ h1 {
   margin: 0 0 0 200px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
-      grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  -ms-grid-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+      grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
 }
 
 .box {

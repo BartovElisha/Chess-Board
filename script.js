@@ -13,7 +13,7 @@ function drawChessBoard() {
 
     // Chess board
     for(let i = 8;i > 0; i--) {
-        // Number before each row
+        // Number before the each row
         letters = document.createElement("p");
         letters.setAttribute("class","letter-mark");
         letters.innerText = `${i}`;
@@ -27,6 +27,11 @@ function drawChessBoard() {
                 chessBox.setAttribute("class","box white");
             chessBoardContainer.appendChild(chessBox);
         }
+        // Number after the each row
+        letters = document.createElement("p");
+        letters.setAttribute("class","letter-mark");
+        letters.innerText = `${i}`;
+        chessBoardContainer.appendChild(letters);
     }
 
     // Letters under chess board
